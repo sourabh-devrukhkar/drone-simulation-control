@@ -1,11 +1,15 @@
+## ▶️ Running the Simulation
 
+Follow these steps to get the simulation up and running:
 
-How to Run the Simulation?
+1. Open the `SetDroneControl_copy.m` script in MATLAB and run it.
 
-1. open SetDroneControl_copy.m script and run it
-2. Double click the DroneSignal_square_copy.mat to load the WayPoints Data
-3. open the XYZsiganl_copy.m script and run it
-4. open DroneControl_copy.slx simulink file and run it.
-5. open the animation_copy.m script and run it to see the animation.
+2. Load the waypoint data by double-clicking `DroneSignal_square_copy.mat`.
 
+3. Open the `XYZsignal_copy.m` script and run it.
 
+4. Open the `DroneControl_copy.slx` file in Simulink and start the simulation.
+
+5. Once the simulation finishes, run `animation_copy.m` to visualize the drone movement.
+---
+That’s it — you should now be able to see the full workflow from setup to animation.
